@@ -38,7 +38,6 @@ Route::middleware('auth')->group(function(){
     //Stocks page
     Route::get('/stocks', [StocksController::class, 'index'])->name('stocks.index');
 
-
 });
 
 Route::middleware('auth')->group(function () {
